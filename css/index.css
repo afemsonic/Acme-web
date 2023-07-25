@@ -1,0 +1,183 @@
+*, *::before, *::after{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* body{
+  min-height: 100vh;
+} */
+
+
+.container{
+  width: 70%;
+  max-width: 1000px;
+  margin: 0 auto;
+  /* outline: 3px solid red; */
+
+}
+header{
+  background-color: #66392c;
+  color: #ffff;
+  padding: 30px;
+  min-height: 100px;
+  border-bottom: 5px solid red;
+}
+header p{
+  margin-bottom: 3px;
+  font-size: 1.5rem;
+}
+nav li{
+  display: inline-block;
+  list-style: none;
+  margin-right: 5%;
+}
+
+nav a{
+  text-decoration: none;
+  color: #ffff;
+  font-size: 1.2rem;
+}
+
+a:hover{
+  color: yellowgreen;
+  cursor: pointer;
+}
+
+a.index{
+  color: rgb(24, 239, 239);
+}
+
+
+
+.red-style{
+  color: red;
+}
+
+.hero{
+  background-image: url('../img/showcase.jpg');
+  min-height: 500px;
+  background-repeat: no-repeat;
+  background-position: -100px -250px;
+  /* background-size: cover; */
+  /* background-attachment: fixed; */
+  color: #ffff;
+  padding-top:200px;
+
+}
+
+h1{
+  margin-bottom: 20px;
+}
+
+.hero p{
+  line-height:25px ;
+}
+
+.newsletter{
+  padding: 2rem;
+  background-color: rgb(41, 41, 66);
+  color:#ffff ;
+}
+
+.newsletter-text{
+  font-size: 1.4rem;
+}
+
+.flex-container{
+  display: block;
+}
+
+input[type=email], .but{
+  display: block;
+  width: 100%;
+}
+
+input[type=email]{
+  margin-bottom: 3px;
+  padding: 0.5rem;
+}
+
+.but{
+  background-color: red;
+  padding: 0.5rem;
+  color:#ffff ;
+  font-size: 1.1rem;
+}
+
+.but:hover, .but:focus{
+  opacity: 0.75;
+}
+
+img{
+  max-width: 100%;
+  /* display: block; */
+}
+
+.service img{
+  display: block;
+  margin: 0  auto;
+  width: 100px;
+  height: 100px;
+}
+
+.service {
+margin-top: 20px;
+}
+
+.service-section{
+  margin:30px 0;
+
+}
+
+footer{
+  color: #ffff;
+  background-color: red;
+  padding: 3rem;
+}
+
+
+
+
+@media (min-width:800px){
+  /* body{} */
+
+  .flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* vertical-align: top; */
+  }
+
+  .newsletter p{
+    width: 50%;
+    /* outline: 3px solid pink; */
+
+  } 
+
+  .newsletter form{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    /* outline: 3px solid yellowgreen; */
+  } 
+
+ 
+
+.but{
+  width:35%;
+}
+
+.newsletter input[type=email]{
+  margin-bottom: 0;
+  width: 60%;
+  /* outline: 3px solid yellow; */
+}
+
+.service {
+  margin-top: 0;
+  margin-left: 30px; 
+ }
+  
+
+}
