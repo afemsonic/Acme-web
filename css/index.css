@@ -62,7 +62,7 @@ a.index{
   /* background-size: cover; */
   /* background-attachment: fixed; */
   color: #ffff;
-  padding:40% 0;
+  padding:10% 0;
 
 }
 
@@ -147,6 +147,10 @@ footer{
     justify-content: space-between;
     align-items: flex-start;
     /* vertical-align: top; */
+  }
+
+  .hero{
+    padding:40% 0;
   }
 
   .newsletter p{
