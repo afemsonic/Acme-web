@@ -27,7 +27,7 @@
            <p class="newsletter-text" >Subscribe to our Newsletter</p>
 
            <form method="POST"  action="https://formspree.io/f/xqkvawvg"> 
-             <input name="email" type="email" placeholder="Your Email">
+             <input name="email" type="email" placeholder="Your Email" required>
              <button type="submit" class="but">Subscribe</button>
            </form>
           </div> 
@@ -73,15 +73,15 @@
 
           <div>
         <label for="name">Name</label>
-        <input type="text" name="name" id="name" placeholder="firstname first"></div>
+        <input type="text" name="name" id="name" placeholder="firstname first" required></div>
 
       <div>
         <label for="email">Email</label>
-        <input name="email" id="email" type="email"></div>
+        <input name="email" id="email" type="email" required></div>
 
       <div>
         <label for="message">Message</label>
-        <textarea name="message" id="message" cols="32" rows="8"></textarea>
+        <textarea name="message" id="message" cols="32" rows="8"  required></textarea>
       </div>
       
         <button class="quote-but">
