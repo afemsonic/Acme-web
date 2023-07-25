@@ -59,11 +59,13 @@ a.index{
   min-height: 500px;
   background-repeat: no-repeat;
   background-position: -100px -250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   /* background-size: cover; */
   /* background-attachment: fixed; */
   color: #ffff;
-  padding:10% 0;
-
 }
 
 h1{
@@ -147,10 +149,6 @@ footer{
     justify-content: space-between;
     align-items: flex-start;
     /* vertical-align: top; */
-  }
-
-  .hero{
-    padding:40% 0;
   }
 
   .newsletter p{
