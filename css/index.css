@@ -5,7 +5,9 @@
 }
 
 body{
-background-color:blue ;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 
@@ -83,7 +85,7 @@ h1{
 }
 
 .newsletter-text{
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 .flex-container{
@@ -105,6 +107,8 @@ input[type=email]{
   padding: 0.5rem;
   color:#ffff ;
   font-size: 1.1rem;
+  border-radius: 6px;
+  border: none;
 }
 
 .but:hover, .but:focus{
@@ -136,6 +140,7 @@ footer{
   color: #ffff;
   background-color: red;
   padding: 3rem;
+  margin-top: auto;
 }
 
 
@@ -150,6 +155,11 @@ footer{
     align-items: flex-start;
     /* vertical-align: top; */
   }
+
+  .newsletter-text{
+    font-size: 1.4rem;
+  }
+  
 
   .newsletter p{
     width: 50%;

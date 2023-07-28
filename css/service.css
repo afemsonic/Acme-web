@@ -4,9 +4,11 @@
   box-sizing: border-box;
 }
 
-/* body{
+body{
+  display: flex;
+  flex-direction: column;
   min-height: 100vh;
-} */
+}
 
 
 .container{
@@ -145,11 +147,19 @@ margin-top: 10px;
 }
 
 .but,.quote-but{
-  background-color: red;
-  padding: 0.5rem;
-  color:#ffff ;
-  font-size: 1.1rem;
-}
+    background-color: red;
+    padding: 0.5rem;
+    color:#ffff ;
+    font-size: 1.1rem;
+    border-radius: 6px;
+    border: none;
+  }
+
+  .quote-but{
+    width: 60%;
+    border-radius: 20px;
+  }
+  
 
 .quote{
   width: 80%;
@@ -183,6 +193,7 @@ footer{
   color: #ffff;
   background-color: red;
   padding: 3rem;
+  margin-top: auto;
 }
 
 @media (min-width:800px){
@@ -203,6 +214,10 @@ footer{
     width: 30%;
     text-align: left;
     margin-top: 0;
+  }
+
+  .quote-but{
+    margin:0 20%;
   }
 
   .service h3, .service p{
@@ -237,9 +252,6 @@ footer{
     /* outline: 3px solid yellow; */
   }
 
-  .container{
-    outline: 0;
-  }
     
 }
 
