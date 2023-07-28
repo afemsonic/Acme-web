@@ -10,7 +10,7 @@ body{
   min-height: 100vh;
 }
 
-
+/* This is a comment*/
 .container{
   width: 70%;
   max-width: 1000px;
