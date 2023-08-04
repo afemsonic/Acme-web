@@ -1,3 +1,5 @@
+/* global styles */
+
 *, *::before, *::after{
   padding: 0;
   margin: 0;
@@ -8,9 +10,9 @@ body{
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-/* This is a comment*/
 .container{
   width: 70%;
   max-width: 1000px;
@@ -26,8 +28,9 @@ header{
   border-bottom: 5px solid red;
 }
 header p{
-  margin-bottom: 3px;
-  font-size: 1.5rem;
+  margin-bottom: 30px;
+  font-size: 1.8rem;
+  letter-spacing:10px;
 }
 nav li{
   display: inline-block;
@@ -39,22 +42,28 @@ nav a{
   text-decoration: none;
   color: #ffff;
   font-size: 1.2rem;
+  text-transform: uppercase;
 }
 
 a:hover{
   color: yellowgreen;
   cursor: pointer;
+  transition: color 2s;
+}
+
+.current-link{
+  color: #ed7575;
 }
 
 a.index{
   color: rgb(24, 239, 239);
 }
 
-
-
 .red-style{
   color: red;
 }
+
+/* hero section */
 
 .hero{
   background-image: url('../img/showcase.jpg');
@@ -78,11 +87,24 @@ h1{
   line-height:25px ;
 }
 
+/* newsletter */
+
 .newsletter{
   padding: 2rem;
   background-color: rgb(41, 41, 66);
   color:#ffff ;
+  animation: slide-in 2s;
 }
+
+@keyframes slide-in{
+  from{
+margin-left: -1000px;
+  }
+  to{
+    margin-left: 0px;
+  }
+}
+
 
 .newsletter-text{
   font-size: 1.2rem;
@@ -136,6 +158,7 @@ margin-top: 20px;
 
 }
 
+/* footer */
 footer{
   color: #ffff;
   background-color: red;
@@ -154,6 +177,10 @@ footer{
     justify-content: space-between;
     align-items: flex-start;
     /* vertical-align: top; */
+  }
+
+  header p{
+    margin-bottom: 0;
   }
 
   .newsletter-text{
