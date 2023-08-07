@@ -9,7 +9,7 @@ body{
   flex-direction: column;
   min-height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 
@@ -22,11 +22,12 @@ body{
 }
 
 header{
-  background-color: #051036;
+  background-color: hsl(227, 83%, 20%);
   color: #ffff;
   padding: 30px;
   min-height: 100px;
   border-bottom: 5px solid red;
+  overflow: hidden;
 }
 
 header p{
@@ -146,7 +147,7 @@ h1{
 
 .newsletter{
   padding: 2rem;
-  background-color: #1e284a;
+  background-color: hsl(227, 74%, 25%);
   color:#ffff ;
   animation: slide-in 2s;
 }
@@ -216,7 +217,7 @@ margin-top: 10px;
 
 
 .aside{
-  background-color: #051036;
+  background-color: hsl(227, 83%, 20%);
   color: #ffff;
   text-align: center;
   padding: 1rem;
@@ -280,7 +281,7 @@ margin-top: 5px;
 footer{
   color: #ffff;
   font-size: 1.2rem;
-  background-color: #051036;
+  background-color: hsl(227, 83%, 20%);
   padding: 3rem;
   margin-top: auto;
   font-weight: bold;
