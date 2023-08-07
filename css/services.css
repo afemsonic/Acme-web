@@ -22,7 +22,7 @@ body{
 }
 
 header{
-  background-image: linear-gradient(45deg,#212135,#a9a9b3,#212135);
+  background-color: #051036;
   color: #ffff;
   padding: 30px;
   min-height: 100px;
@@ -146,7 +146,7 @@ h1{
 
 .newsletter{
   padding: 2rem;
-  background-color: #292942;
+  background-color: #1e284a;
   color:#ffff ;
   animation: slide-in 2s;
 }
@@ -189,7 +189,7 @@ img{
 }
 
 .service{
-  background-color: #d4d4d9;
+  background-color: hsl(227, 100%, 90%);
   padding: 3rem;
 }
 
@@ -216,7 +216,7 @@ margin-top: 10px;
 
 
 .aside{
-  background-color: rgb(41, 41, 66);
+  background-color: #051036;
   color: #ffff;
   text-align: center;
   padding: 1rem;
@@ -278,9 +278,9 @@ margin-top: 5px;
 
 
 footer{
-  color: hsl(240, 50%, 21%);
+  color: #ffff;
   font-size: 1.2rem;
-  background-image: linear-gradient(45deg,#3e3e55,#a9a9b3,#3e3e55);
+  background-color: #051036;
   padding: 3rem;
   margin-top: auto;
   font-weight: bold;
