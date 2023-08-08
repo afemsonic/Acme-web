@@ -275,7 +275,7 @@ footer{
   
 
   header p{
-    font-size: min(8vh,1.8rem);
+    font-size: min(8vw,1.8rem);
     width: 100%;
     margin-bottom: 30px;
     font-weight: bold;
