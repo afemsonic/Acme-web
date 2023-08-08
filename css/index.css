@@ -46,7 +46,7 @@ header{
 
 header p{
   font-weight: bold;
-  font-size: min(8vw,1.8rem);
+  font-size: 1.8rem;
   letter-spacing:1vw;
   width: 50%;
   /* letter-spacing:6px; */
