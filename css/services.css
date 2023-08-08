@@ -150,10 +150,9 @@ h1{
 
 .newsletter{
   padding: 2rem;
-  background-color: hsl(227, 74%, 25%);
+  background-color: #11256f;
   color:#ffff ;
-  animation: sli
-  de-in 2s;
+  animation: slide-in 2s;
 }
 
 @keyframes slide-in{
@@ -229,7 +228,7 @@ margin-top: 10px;
 }
 
 .but,.quote-but{
-    background-color: hsl(0, 100%, 50%);
+    background-color: #ff0000;
     padding: 0.5rem;
     color:#ffff ;
     font-size: 1.1rem;
