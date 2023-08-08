@@ -20,8 +20,7 @@ body{
 }
 
 header{
-  /* background-color: #66392c; */
-  background-image: linear-gradient(45deg,#3e3e55,#a9a9b3,#3e3e55);
+  background-color: hsl(227, 83%, 20%);
   color: #ffff;
   padding: 30px;
   min-height: 100px;
@@ -64,7 +63,7 @@ a:hover{
   /* display: inline-block; */
   position: absolute;
   right: 30px;
-  top:90px;
+  top:80px;
   cursor: pointer;
   z-index: 9999;
 }
@@ -98,11 +97,10 @@ margin: 3px auto 0;
 
 .nav-menu{
   background-color:#000000c5;
-  position: absolute;
+  position: fixed;
   top: 75px;
   right: 0;
-  width: 300px;
-  padding: ;
+  width: 70%;
   min-height: 300px;
   justify-content: center;
   display: flex;
@@ -146,7 +144,7 @@ h1{
 
 .newsletter{
   padding: 2rem;
-  background-color: rgb(41, 41, 66);
+  background-color: hsl(227, 74%, 25%);
   color:#ffff ;
   animation: slide-in 2s;
 }
@@ -161,7 +159,7 @@ margin-left: -1000px;
 }
 
 .newsletter-text{
-  font-size: 1.08rem;
+  font-size: 0.97rem;
   font-weight:bold;
 }
 
@@ -207,7 +205,7 @@ margin-bottom:30px ;
 }
 
 .aside, .about-text > p:nth-child(3)  {
-  background-color: rgb(41, 41, 66);
+  background-color: hsl(227, 74%, 25%);
   color: #ffff;
   padding: 2rem;
 }
@@ -216,10 +214,10 @@ margin-bottom: 20px;
 }
 
 footer{
-  color: hsl(240, 50%, 21%);
+  color: #ffff;
   /* color: hsl(0, 30%, 100%/ 0.1); */
   font-size: 1.2rem;
-  background-image: linear-gradient(45deg,#3e3e55,#a9a9b3,#3e3e55);
+  background-color: hsl(227, 83%, 20%);
   padding: 3rem;
   margin-top: auto;
   font-weight: bold;
@@ -289,7 +287,7 @@ footer{
 
   .newsletter-text{
     /* font-size:min(1.3rem, 2vw); */
-    font-size: 0.97rem;
+    font-size: 1.4rem;
   }
   
   .but{
