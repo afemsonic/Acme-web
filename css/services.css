@@ -305,7 +305,7 @@ footer{
 
   .newsletter>.flex-container{
     display: flex;
-    justify-content: f;
+    justify-content: space-between;
     align-items: center;
   }
 
@@ -313,7 +313,6 @@ footer{
     width: 50%;
     display: flex;
     justify-content: space-between;
-    vertical-align: bottom;
     /* outline: 3px solid yellowgreen; */
   } 
 
