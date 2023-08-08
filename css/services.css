@@ -75,6 +75,7 @@ a:hover{
 }
 
 .hamburger.active{
+  position: fixed;
   transition: transform 1s;
 }
 
@@ -108,19 +109,19 @@ margin: 3px auto 0;
   right: 0;
   width: 70%;
   min-height: 300px;
-  justify-content: center;
+  justify-content: space-evenly;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  /* gap: 2rem; */
   border-radius: 10px;
-  right:-100% ;
+  margin-right:-300% ;
   transition: 0.5s;
 }
 
 .nav-menu.active{
-  right: 0;
+  margin-right: 0;
   transition: 0.7s;
-  /* z-index: 8000; */
+  z-index: 8000;
 }
 
 /* hero section */
@@ -289,7 +290,7 @@ footer{
 
 
 /* media query */
-@media (min-width:800px){
+@media (min-width:600px){
   /* body{} */
 
 
@@ -315,7 +316,7 @@ footer{
     position: relative;
     top: 0;
     right: 0;
-    width: 70%;
+    width: 100%;
     min-height: 0;
     justify-content: space-evenly;
     flex-direction: row;

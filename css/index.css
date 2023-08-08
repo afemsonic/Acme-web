@@ -46,8 +46,9 @@ header{
 
 header p{
   font-weight: bold;
-  font-size: min(7vw,1.8rem);
-  width: 50% ;
+  font-size: min(8vw,1.8rem);
+  letter-spacing:1vw;
+  width: 50%;
   /* letter-spacing:6px; */
 }  
 
@@ -62,7 +63,7 @@ nav li{
   display: inline-block;
   list-style: none;
   font-size: min(4vw, 1.2rem);
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 nav a{
@@ -88,6 +89,7 @@ a:hover{
 }
 
 .nav-menu{
+  width: 100%;
   display: flex;
   background-color:#00000000;
   justify-content: space-evenly;
@@ -105,6 +107,7 @@ a:hover{
 }
 
 .hamburger.active{
+  position: fixed;
   transition: transform 1s;
 }
 
@@ -171,7 +174,6 @@ h1{
 /* newsletter */
 
 .newsletter{
-  outline: 3PX SOLID yellow;
   padding: 2rem;
   background-color: #11256f;
   color:#ffff ;
@@ -275,7 +277,6 @@ footer{
   header p{
     width: 100%;
     margin-bottom: 30px;
-    letter-spacing:1vw;
     font-weight: bold;
   }
   
@@ -296,12 +297,11 @@ footer{
   top: 75px;
   width: 70%;
   min-height: 300px;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-direction: column;
-  gap: 2rem;
+  /* gap: 2rem; */
   border-radius: 10px;
   right:-100% ;
-  overflow-x: hidden;
   transition: 0.5s;
 }
 

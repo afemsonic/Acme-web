@@ -69,6 +69,7 @@ a:hover{
 }
 
 .hamburger.active{
+  position: fixed;
   transition: transform 1s;
 }
 
@@ -102,10 +103,10 @@ margin: 3px auto 0;
   right: 0;
   width: 70%;
   min-height: 300px;
-  justify-content: center;
+  justify-content: space-evenly;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  /* gap: 2rem; */
   border-radius: 10px;
   margin-right:-300% ;
 }
@@ -225,7 +226,7 @@ footer{
 
 
 
-@media (min-width:800px){
+@media (min-width:600px){
   /* body{} */
 
   .flex-container{
