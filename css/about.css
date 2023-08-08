@@ -29,9 +29,9 @@ header{
 
 header p{
   margin-bottom: 30px;
-  font-size: min(7vw,1.8rem);
+  font-size: 24px;
   letter-spacing:1vw;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 nav li{
@@ -217,16 +217,57 @@ margin-bottom: 20px;
 footer{
   color: #ffff;
   /* color: hsl(0, 30%, 100%/ 0.1); */
-  font-size: 1.2rem;
+  font-size: 16px;
   background-color: hsl(227, 83%, 20%);
-  padding: 3rem;
+  padding: 2rem;
   margin-top: auto;
   font-weight: bold;
 }
 
+@media (min-width:570px){
+
+  .newsletter{
+    padding: 2rem 0;
+  }
+  .newsletter p{
+    width: 50%;
+    /* outline: 3px solid pink; */
+
+  } 
+
+  .newsletter>.flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .newsletter form{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    /* outline: 3px solid yellowgreen; */
+  } 
+
+  .newsletter-text{
+    /* font-size:min(1.3rem, 2vw); */
+    font-size: 18px;
+  }
+  
+  .but{
+    width:35%;
+  }
+
+  .newsletter input[type=email]{
+    margin-bottom: 0;
+    width: 60%;
+    /* outline: 3px solid yellow; */
+  }
+
+}
 
 
-@media (min-width:600px){
+
+@media (min-width:800px){
   /* body{} */
 
   .flex-container{
@@ -239,6 +280,7 @@ footer{
   header p{
     margin-bottom: 0px;
     width:50% ;
+    font-size: 1.8rem;
     /* letter-spacing:6px; */
     /* outline: 3px solid blueviolet; */
   }
@@ -311,4 +353,8 @@ footer{
     margin-top: 0;
   }
 
+  footer{
+    font-size: 1.2rem;
+    padding: 3rem;
+  }
 }
