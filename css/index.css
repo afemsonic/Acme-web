@@ -267,6 +267,10 @@ footer{
     background-color: yellow;
   } */
 
+  .flex-container{
+    display: block;
+  }
+
   .newsletter{
     padding: 2rem 0;
   }
@@ -299,16 +303,44 @@ footer{
   }
 
 
-
    header p{
     /* outline: 3px solid red; */
     font-size: 26px;
-    letter-spacing:3px;
+    /* letter-spacing:3px; */
+    width: 100%;
+    margin-bottom: 30px;
    }
 
-   .nav-menu{
-    gap:1rem ;
+   .hamburger{
+    display: block;
+    position: absolute;
+    right: 30px;
+    top:80px;
+    cursor: pointer;
+    z-index: 9999;
+  }
+  
+  .nav-menu{
+    background-color:#000000c5;
+    position: fixed;
+    top: 75px;
+    width: 70%;
+    max-width: 400px;
+    min-height: 300px;
+    justify-content: space-evenly;
+    flex-direction: column;
+    /* gap: 2rem; */
+    border-radius: 10px;
+    right:-100% ;
+    transition: 0.5s;
+  }
+  
+  
+   .service {
+    margin-top: 20px;
+    margin-left: 0;
    }
+  
 }
 
 
@@ -330,29 +362,6 @@ footer{
   
 
 
-.hamburger{
-  display: block;
-  position: absolute;
-  right: 30px;
-  top:80px;
-  cursor: pointer;
-  z-index: 9999;
-}
-
-.nav-menu{
-  background-color:#000000c5;
-  position: fixed;
-  top: 75px;
-  width: 70%;
-  min-height: 300px;
-  justify-content: space-evenly;
-  flex-direction: column;
-  /* gap: 2rem; */
-  border-radius: 10px;
-  right:-100% ;
-  transition: 0.5s;
-}
-
 .newsletter p{
   width: 100%;
 }
@@ -360,8 +369,6 @@ footer{
   .newsletter-text{
     font-size: 0.97rem;
   }
-  
-
 
   .newsletter form{
     width: 100%;
@@ -378,10 +385,6 @@ footer{
     width: 100%;
   }
 
-
-.service {
-  margin-top: 20px;
- }
   
  footer{
   font-size: 16px;

@@ -104,6 +104,7 @@ margin: 3px auto 0;
   top: 75px;
   right: 0;
   width: 70%;
+  max-width: 400px;
   min-height: 300px;
   justify-content: space-evenly;
   display: flex;
@@ -265,6 +266,9 @@ footer{
     /* outline: 3px solid yellow; */
   }
 
+  header p{
+    font-size: 26px;
+  }
 }
 
 
@@ -303,6 +307,7 @@ footer{
     top: 0;
     right: 0;
     width: 100%;
+    max-width: 100%;
     min-height: 0;
     justify-content: space-evenly;
     flex-direction: row;
